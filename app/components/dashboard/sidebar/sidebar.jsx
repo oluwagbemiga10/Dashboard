@@ -84,7 +84,7 @@ import {
       <div className={styles.user}>
         <Image className={styles.userImage} src="/noavatar.png" alt="user profile" width="50" height="50" />
         <div className={styles.userDetail}>
-          <span className={styles.userName}>John Doe</span>
+          <span className={styles.userName}>Gbenga Oyelami</span>
           <span className={styles.userTitle}>Administrator</span>
         </div>
       </div>
@@ -98,6 +98,9 @@ import {
           </li>
         ))}
       </ul>
+      <button className={styles.logout}>
+        <MdLogout />
+        Logout</button>
     </div>
   )
 }
