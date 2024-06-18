@@ -1,17 +1,12 @@
-import React from 'react'
-import styles from "../components/login/login.module.css"
+import styles from "../components/login/login.module.css";
+import LoginForm from "../components/login/loginForm/loginForm";
 
-const Login = () => {
+const LoginPage = () => {
   return (
     <div className={styles.container}>
-      <form action="" className={styles.form}>
-        <h1>Login</h1>
-        <input type='text' placeholder='username' />
-        <input type='password' placeholder='password' />
-        <button>Login</button>
-      </form>
+      <LoginForm/>
     </div>
-  )
-}
+  );
+};
 
-export default Login
+export default LoginPage;
