@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "../../components/dashboard/users/user.module.css"
+import styles from '../../components/dashboard/users/user.module.css'
 import Search from '../../components/dashboard/search/search'
 import Link from 'next/link'
 import Image from 'next/image'
